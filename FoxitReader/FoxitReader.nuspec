@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FoxitReader</id>
+    <version>2024.1.0.23997</version>
+    <title>Foxit PDF Reader</title>
+    <authors>Foxit Software Incorporated</authors>
+    <owners>ComFreek H.AlanStevens sublym0nal</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.foxit.com/pdf-editor/eula.html</licenseUrl>
+    <projectUrl>https://www.foxit.com/pdf-reader/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-foxitreader@b05f9599629ce6ad99e1889e4651f3c4f870b476/FoxitReader.png</iconUrl>
+    <description>## Foxit PDF Reader
+
+The industry's most powerful PDF reader. View, annotate, form fill, and sign PDFs across your desktop, mobile device, and the web – no matter if you're at the office, home, or on the go.
+
+![Foxit PDF Reader Screenshot](https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-foxitreader@bc276314a2bd44d6443a09ef7e8a2d1e2ed99ba9/Screenshot.png)
+
+### Features
+
+#### Read and Print
+
+Experience the power of PDFs through a full functioned PDF Reader. Reading and printing PDFs couldn't be easier. Leverage existing forms and workflows with standard PDF (Acroforms) and XFA (XML Form Architecture) form filling.
+
+#### Read PDF Anywhere
+
+Foxit PDF Reader is available on Windows, macOS, iOS, Android, the web, and Linux, and provides a consistent reading experience no matter where you are and what device you're using.
+
+#### Collaborate and Share
+
+Integrate with leading cloud storage services and popular enterprise CMS. Collaborate through shared reviews while providing document feedback with a large variety of annotation tools. Add images, videos, and file attachments.
+
+#### Protect and Sign
+
+Sign documents in your own handwriting or utilize eSignature and verify the status of digital signatures. Be safe from vulnerabilities by utilizing Trust Manager/Safe Mode, ASLR &amp; DEP, Disable JavaScript, and Security Warning Dialogs.
+
+## Package Parameters
+
+* `/NoShim` - Opt out of creating a shim, and removes any existing shim.
+
+## [Package Notes](https://github.com/brogers5/chocolatey-package-foxitreader/blob/v2024.1.0.23997/PACKAGE-NOTES.md)</description>
+    <summary>Foxit PDF Reader: The Best PDF Reader</summary>
+    <releaseNotes>https://www.foxit.com/pdf-reader/version-history.html</releaseNotes>
+    <copyright>2024 © Foxit Software Incorporated. All rights reserved.</copyright>
+    <tags>Foxit PDF Reader office cross-platform freeware</tags>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-foxitreader/tree/v2024.1.0.23997</packageSourceUrl>
+    <docsUrl>https://www.foxit.com/support/usermanuals.html</docsUrl>
+    <mailingListUrl>https://kb.foxit.com/hc/en-us/community/topics/5008047080724-Foxit-PDF-Reader</mailingListUrl>
+  </metadata>
+</package>
