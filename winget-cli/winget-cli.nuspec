@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>winget-cli</id>
+    <version>1.7.10861</version>
+    <title>WinGet Client</title>
+    <authors>Microsoft</authors>
+    <owners>pauby,steviecoaster</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/microsoft/winget-cli/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/microsoft/winget-cli</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pauby/ChocoPackages@cd7c485/icons/winget-cli.png</iconUrl>
+    <description>The winget command line tool enables users to discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service.
+
+## Notes:
+
+- WinGet-CLI requires at least Windows 10 version 1809 (build 17763). See https://github.com/microsoft/winget-cli#installing-the-client for more information.
+- WinGet-CLI requires 'Microsoft.UI.Xaml.2.7' Appx package and does not work if a later (2.8+) version _only_ is installed. The Chocolatey package takes care of this by adding the [`microsoft-ui-xaml-2-7`](https://community.chocolatey.org/packages/microsoft-ui-xaml-2-7) as a dependency.
+- This is an automatically updated package. If you find it out of date by more than a week, please let the maintainer know using the 'Contact Maintainers' link on the package page.</description>
+    <summary>The winget command line tool enables users to discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service..</summary>
+    <releaseNotes>This release is the third stable release of Windows Package Manager 1.5 for Windows 10 (1809+) and Windows 11.
+
+This release contains a minor servicing fix to revert an issue with down sampling telemetry as well as populating the manifest version for rest source manifests.
+
+The [Microsoft.WinGet.Client PowerShell module](https://www.powershellgallery.com/packages/Microsoft.WinGet.Client/0.2.1) has been published to the PowerShell Gallery. 
+
+Experimental features have been disabled in this release. We will follow this release with another preview release build at GitHub so users can continue with experimental features available.
+
+## What's Changed
+* Revert "Down sampling (#2950)" by @JohnMcPMS in https://github.com/microsoft/winget-cli/pull/3511
+* Populate missing ManifestVersion for manifest from rest source and ma… by @yao-msft in https://github.com/microsoft/winget-cli/pull/3474
+
+
+**Full Changelog**: https://github.com/microsoft/winget-cli/compare/release-v1.5.1881...release-v1.5.2201</releaseNotes>
+    <copyright>2023 Microsoft Corporation</copyright>
+    <tags>winget-cli winget</tags>
+    <projectSourceUrl>https://github.com/microsoft/winget-cli</projectSourceUrl>
+    <packageSourceUrl>https://github.com/pauby/chocopackages/tree/master/automatic/winget-cli</packageSourceUrl>
+    <docsUrl>https://docs.microsoft.com/learn/modules/explore-windows-package-manager-tool/?WT.mc_id=AZ-MVP-5004737</docsUrl>
+    <bugTrackerUrl>https://github.com/microsoft/winget-cli/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="microsoft-ui-xaml-27" version="2.7.0" />
+      <dependency id="microsoft-vclibs-140" version="14.0.30704" />
+    </dependencies>
+  </metadata>
+</package>
