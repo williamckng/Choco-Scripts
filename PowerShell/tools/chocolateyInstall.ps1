@@ -14,7 +14,7 @@ $file = "$fileLocation\Microsoft $softwareName\$fileName"
 
 # Define install parameters
 $installLog = "$env:TEMP\$chocolateyPackageName.$chocolateyPackageVersion.MsiInstall.log"
-$silentArgs = "/passive /norestart /l*v `"$installLog`""
+$silentArgs = "/passive /norestart /l*v `"$installLog`" DISABLE_TELEMETRY=1"
 
 $packageArgs = @{
   packageName    = $chocolateyPackageName
